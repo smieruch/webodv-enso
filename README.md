@@ -63,15 +63,24 @@ Use this *.xview* to access the plot immediately: [enso_surface_step3.xview](./x
 Open the *Properties* of the scatter window. On the *Display Style* tab click on the *Gridded field*
 radio button. From the dropdown menu, choose *DIVA gridding*, deselect the *Automatic scale length*
 and *Draw marks* (left) checkboxes. Enter *20* for the *X scale length* and *Y scale length*. Select
-the *Contours* tab. Enter *10* Start, *2.5* Increment and *35* End. Click on the << Symbol. Click on Apply.
+the *Contours* tab. Enter *10* Start, *2.5* Increment and *35* End. Click on the << Symbol. Click on
+Apply.  Right click into the white area (canvas), select *Layout->Add Graphics Object->Annotation*
+(*CTRL-A*). A crosshair appears, left click into the white area to place an annotation. On the
+dialog enter *2014 - 2025 | August 7 - September 6 | 0 - 20 dbar*, change the Font size to *16*. Click Apply. Move
+the annotation with the left mouse click.
 
 ![alt text](./img/enso_surface_step_4.png "Gridding") 
 Use this *.xview* to access the plot immediately: [enso_surface_step4.xview](./xviews/enso_surface_step4.xview).
 
+## Store data
+
+Now we have created what we name the seasonally matched reference data. Right click into the plot,
+select *Extras->Export Window Data->to Clipboard* or *...->to File*. On the dialog click *Start
+Export*. Now the reference data are saved in the "clipboard" or in a file.
 
 
 
-![alt text](./img/step3.png "Scatter Window") 
+
 
 
 ## Filter Depth and Outliers
@@ -138,6 +147,9 @@ Right click into the Scatter Window, on the dialog select *X-Variable* (*X* on t
 and choose *drvd: Time (station date/time)*. Repeat for *Y-Variable*
 and choose *9. Bottle Dissolved Oxygen [umol/kg]*.
 Respective view file: [webodv_xservint_hot_scatter.xview](./xviews/webodv_xservint_hot_scatter.xview).
+
+
+
 
 ![alt text](./img/hot_step_2.jpg "Scatter") 
 
