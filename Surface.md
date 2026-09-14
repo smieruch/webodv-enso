@@ -32,7 +32,7 @@ Apply. What we did is selecting data from 2014 to 2025 only during the 30 day wi
 September 6.
 
 ![alt text](./img/enso_surface_step_2.png "Filter Stations") 
-Use this *.xview* to access the plot immediately: [enso_surface_step2.xview](./xviews/enso_surface_step2.xview).
+Use this *xview* to access the plot immediately: [enso_surface_step2.xview](./xviews/enso_surface_step2.xview).
 
 
 ## Create Scatter Window and Derived Variables
@@ -87,7 +87,7 @@ scale length 20 is active. Right click on the title annotation and select Proper
 title to *2026 | August 7 - September 6 | 0 - 20 dbar*.
 
 ![alt text](./img/enso_surface_step_5.png "Current") 
-*.xview*: [enso_surface_step5.xview](./xviews/enso_surface_step5.xview).
+*xview*: [enso_surface_step5.xview](./xviews/enso_surface_step5.xview).
 
 
 
@@ -103,4 +103,4 @@ Click on Apply. Open the *Set Ranges* (*ALT+R*) and set the Temperature range fr
 10.
 
 ![alt text](./img/enso_surface_step_6.png "Current") 
-*.xview*: [enso_surface_step6.xview](./xviews/enso_surface_step6.xview).
+*xview*: [enso_surface_step6.xview](./xviews/enso_surface_step6.xview).
