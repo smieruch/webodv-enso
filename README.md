@@ -1,25 +1,14 @@
-# webodv-cross-server-integration
-Step-by-step tutorial on webODV's cross-server integration function.
+# webodv-enso
+Step-by-step tutorial on webODV's ENSO monitoring.
 
-In this example we show how to use webODV's cross-server integration -
-the ability to pull in data from multiple servers and overlay them in
-a unified visual and analytical framework.
+In this example we show how to use webODV's data exchange functionality -
+the ability to store reference data and apply it to current data.
 
-![alt text](./img/hot_step_8.jpg "Final") 
-*HOT (station ALOHA, white dot on map) oxygen data between 480 - 520 dbar
-are shown as blue dots with an overlaid black moving average
-line. Individual BGC Argo oxygen data (red dots on map) for the same
-interval retrieved via webODV’s cross-server integration have been
-overlaid (red dots plus gray moving average line). The combination of
-ship-based Niskin measurements with autonomous float observations
-demonstrates how webODV facilitates direct comparison of complementary
-datasets without preprocessing or downloading.*
-
-# Open the BGC Argo dataset
+# Open the Pacific Argo dataset
 
 In your webbrowser visit https://argo-webodv.vm.fedcloud.eu, and choose
-*Ocean->Biogeochemistry->BGC-Argo Global Profiles*, or directly
-https://argo-webodv.vm.fedcloud.eu/public/ocean/biogeochemistry/bgc-argo_global_profiles.
+*Ocean->Hydrography->Argo_Pacific_Profiles*, or directly
+https://argo-webodv.vm.fedcloud.eu/public/ocean/hydrography/pacific_ocean/argo_pacific_profiles.
 On the
 next page click on *WEBODV EXPLORE*.  
 Choose *View->Load View->public->AllStationsMap*.  Consider to save your work regularly via right
