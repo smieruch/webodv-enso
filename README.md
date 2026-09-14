@@ -16,7 +16,7 @@ click on the canvas (white area) and select *Save View As*. Note that the view i
 Browsers cache. To have a real back up, download the view via *View->Manage Resources->Views*, click
 on the respective view and on *Download*.
 
-![alt text](./img/enso_surface_step1.png "Global map") 
+![alt text](./img/enso_surface_step_1.png "Global map") 
 
 ## Domain
 
@@ -31,7 +31,7 @@ Time choose From: Jan 01 2014; To: Dec 31 2015. Then choose Season From: Aug 07;
 Apply. What we did is selecting data from 2014 to 2025 only during the 30 day window August 7 and
 September 6.
 
-![alt text](./img/enso_surface_step2.png "Filter Stations") 
+![alt text](./img/enso_surface_step_2.png "Filter Stations") 
 Use this *.xview* to access the plot immediately: [enso_surface_step2.xview](./xviews/enso_surface_step2.xview).
 
 
@@ -54,7 +54,7 @@ Apply. Change the layout by right click into the scatter window *Layout->Move / 
 (*CTRL-R*). A red border appears around the plot and you can move and resize the plot using the
 mouse and drag and drop. Move and resize the map as you wish.
 
-![alt text](./img/enso_surface_step3.png "Create Scatter") 
+![alt text](./img/enso_surface_step_3.png "Create Scatter") 
 Use this *.xview* to access the plot immediately: [enso_surface_step3.xview](./xviews/enso_surface_step3.xview).
 
 
@@ -65,7 +65,7 @@ radio button. From the dropdown menu, choose *DIVA gridding*, deselect the *Auto
 and *Draw marks* (left) checkboxes. Enter *20* for the *X scale length* and *Y scale length*. Select
 the *Contours* tab. Enter *10* Start, *2.5* Increment and *35* End. Click on the << Symbol. Click on Apply.
 
-![alt text](./img/enso_surface_step4.png "Gridding") 
+![alt text](./img/enso_surface_step_4.png "Gridding") 
 Use this *.xview* to access the plot immediately: [enso_surface_step4.xview](./xviews/enso_surface_step4.xview).
 
 
