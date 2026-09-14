@@ -16,36 +16,60 @@ click on the canvas (white area) and select *Save View As*. Note that the view i
 Browsers cache. To have a real back up, download the view via *View->Manage Resources->Views*, click
 on the respective view and on *Download*.
 
-![alt text](./img/step1.png "Global map") 
+![alt text](./img/enso_surface_step1.png "Global map") 
 
 ## Domain
 
 Right click into the map and choose *Properties*, or use the keyboard shortcut *ALT+P*. On the dialog select
-*Domain* and enter *West=197*, *East=207*, *North=25*, *South=18* and
+*Domain* and enter *West=150*, *East=290*, *North=20*, *South=-20* and
 click on *Apply*.
 
-## Filter Stations
+## Filter Stations by Period and Season
 
-Again, right click into the map and choose *Station
-Filter->Customize* (*ALT+S*). On the dialog select Domain and enter *West=200*, *East=204*, *North=24*, *South=22*.
-Then, on the dialog, select *Availability* and click on *8. Dissolved Oxygen (adjusted) [umol kg-1]*
-and click on *Apply*. Right click on the black text on the map and click on *Delete Object* to remove the text.
-To jump directly into this intermediate state, download this *.xview* file:
-[webodv_xservint_filter_stations.xview](./xviews/webodv_xservint_filter_stations.xview).
-Then in webODV go to *View->Manage Resources->Views->Click to select a view for upload* and choose the *.xview* file from your computer.
+Again, right click into the map and choose *Station Filter->Customize* (*ALT+S*). On the tab Date /
+Time choose From: Jan 01 2014; To: Dec 31 2015. Then choose Season From: Aug 07; To Sep 06. Click
+Apply. What we did is selecting data from 2014 to 2025 only during the 30 day window August 7 and
+September 6.
 
-![alt text](./img/step2.png "Filter Stations") 
+![alt text](./img/enso_surface_step2.png "Filter Stations") 
+Use this *.xview* to access the plot immediately: [enso_surface_step2.xview](./xviews/enso_surface_step2.xview).
+
 
 ## Create Scatter Window and Derived Variables
 
 Right click into the white area next to the map (the *canvas*). On the dialog choose *Layout->Layout
 Templates->1 SCATTER WINDOW*, or click on the *+* in the top menu bar and choose the *1 SCATTER
-WINDOW*. Next choose *View->Derived Variables* (*ALT+D*), on the dialog open the *Time* node
-and select *Time (station date/time)*. Click *Apply*.  
-Right click into the Scatter Window, on the dialog select *X-Variable* (or *X* on the keyboard)
-and choose *drvd: Time (station date/time)*. Repeat for *Y-Variable*
-and choose *8. Dissolved Oxygen (adjusted) [umol kg-1]*.
-Use this *.xview* to access the plot immediately: [webodv_xservint_scatter.xview](./xviews/webodv_xservint_scatter.xview).
+WINDOW*. Next choose *View->Derived Variables* (*ALT+D*), on the dialog select under Metadata,
+Latitude and Longitude. The new derived variables appear in the left dialog box. Click Apply. Now
+the *drvd: Longitude* and *drvd: Latitude* appear in the data variables list on the right.  Right
+click into the Scatter Window, on the dialog select *X-Variable* (or *X* on the keyboard) and choose
+*drvd: Longitude*. Repeat for *Y-Variable* and choose *drvd: Latitude* and *Z-Variable* and select
+*4: Temperature (adjusted) [degrees_Celsius]*.  Then right click into the scatter window select
+*Sample Filter->Reject Outliers*. Then open the sample filter by right clicking *Sample
+Filter->Customize* (*SHIFT+S*). Select the *Range* tab, Variable: *2: Pressure (adjusted) [decibar]*
+and Acceptible Range *0* to *20*. Click on apply. Thus we select only data in the upper ocean
+layers, between the surface and 20 dbar (ca. 20 m) depth. Further right click into the plot and
+select *Set Ranges* (*ALT+R*). On the dialog choose Minimum: 10; Maximum: 35, for Temperature. Click
+Apply. Change the layout by right click into the scatter window *Layout->Move / Resize Window*
+(*CTRL-R*). A red border appears around the plot and you can move and resize the plot using the
+mouse and drag and drop. Move and resize the map as you wish.
+
+![alt text](./img/enso_surface_step3.png "Create Scatter") 
+Use this *.xview* to access the plot immediately: [enso_surface_step3.xview](./xviews/enso_surface_step3.xview).
+
+
+## Gridding and contouring
+
+Open the *Properties* of the scatter window. On the *Display Style* tab click on the *Gridded field*
+radio button. From the dropdown menu, choose *DIVA gridding*, deselect the *Automatic scale length*
+and *Draw marks* (left) checkboxes. Enter *20* for the *X scale length* and *Y scale length*. Select
+the *Contours* tab. Enter *10* Start, *2.5* Increment and *35* End. Click on the << Symbol. Click on Apply.
+
+![alt text](./img/enso_surface_step4.png "Gridding") 
+Use this *.xview* to access the plot immediately: [enso_surface_step4.xview](./xviews/enso_surface_step4.xview).
+
+
+
 
 ![alt text](./img/step3.png "Scatter Window") 
 
