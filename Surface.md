@@ -27,9 +27,9 @@ click on *Apply*.
 ## Filter Stations by Period and Season
 
 Again, right click into the map and choose *Station Filter->Customize* (*ALT+S*). On the tab Date /
-Time choose From: *Jan 01 2014*; To: *Dec 31 2015*. Then choose Season From: *Aug 07*; To *Sep 06*. Click
-Apply. What we did is selecting data from 2014 to 2025 only during the 30 day window August 7 and
-September 6.
+Time choose From: *Jan 01 2014*; To: *Dec 31 2015*. Then choose Season From: *Aug 28*; To *Sep 27*. Click
+Apply. What we did is selecting data from 2014 to 2025 only during the 30 day window August 28 and
+September 27.
 
 ![alt text](./img/enso_surface_step_2.png "Filter Stations") 
 Use this *xview* to access the plot immediately: [enso_surface_step2.xview](./xviews/enso_surface_step2.xview).
@@ -64,10 +64,10 @@ Open the *Properties* of the scatter window. On the *Display Style* tab click on
 radio button. From the dropdown menu, choose *DIVA gridding*, deselect the *Automatic scale length*
 and *Draw marks* (left) checkboxes. Enter *20* for the *X scale length* and *Y scale length*. Select
 the *Contours* tab. Enter *10* Start, *2.5* Increment and *35* End. Click on the << Symbol. Click on
-Apply.  Right click into the white area (canvas), select *Layout->Add Graphics Object->Annotation*
+Apply.  Right click into the data window, select *Layout->Add Graphics Object->Annotation*
 (*CTRL-A*). A crosshair appears, left click into the white area to place an annotation. On the
-dialog enter *2014 - 2025 | August 7 - September 6 | 0 - 20 dbar*, change the Font size to *16*. Click Apply. Move
-the annotation with the left mouse click.
+dialog enter *2014 - 2025 | August 28 - September 27 | 0 - 20 dbar*, change the Font size to
+*10*. Click Apply. Move the annotation with the left mouse click.
 
 ![alt text](./img/enso_surface_step_4.png "Gridding") 
 *xview*: [enso_surface_step4.xview](./xviews/enso_surface_step4.xview).
@@ -82,9 +82,9 @@ Export*. Now the reference data are saved in the "clipboard" or in a file.
 
 We continue with the view and filter now the current surface conditions. Open the station filter on
 the map.  (*ALT-S*) and select as Period From: *Jan 01 2026*; To: *Dec 31 2026*. Make sure that the
-Season is still From: *Aug 07*; To *Sep 06*. Verify under properties that DIVA gridding with X and Y
+Season is still From: *Aug 28*; To *Sep 27*. Verify under properties that DIVA gridding with X and Y
 scale length 20 is active. Right click on the title annotation and select Properties. Change the
-title to *2026 | August 7 - September 6 | 0 - 20 dbar*.
+title to *2026 | August 28 - September 27 | 0 - 20 dbar*.
 
 ![alt text](./img/enso_surface_step_5.png "Current") 
 *xview*: [enso_surface_step5.xview](./xviews/enso_surface_step5.xview).

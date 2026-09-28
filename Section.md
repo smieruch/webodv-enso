@@ -21,15 +21,15 @@ on the respective view and on *Download*.
 ## Domain
 
 Right click into the map and choose *Properties*, or use the keyboard shortcut *ALT+P*. On the dialog select
-*Domain* and enter *West=150*, *East=290*, *North=10*, *South=-10* and
+*Domain* and enter *West=150*, *East=290*, *North=20*, *South=-20* and
 click on *Apply*.
 
-## Filter Stations by Period and Season
+## Filter Stations by Region, Period and Season
 
-Again, right click into the map and choose *Station Filter->Customize* (*ALT+S*). On the tab Date /
-Time choose From: *Jan 01 2014*; To: *Dec 31 2015*. Then choose Season From: *Aug 07*; To *Sep 06*. Click
-Apply. What we did is selecting data from 2014 to 2025 only during the 30 day window August 7 and
-September 6.
+Again, right click into the map and choose *Station Filter->Customize* (*ALT+S*). On the tab Domain,
+choose *West=150*, *East=290*, *North=4*, *South=-4*. On tab Date / Time choose From: *Jan 01 2014*;
+To: *Dec 31 2015*. Then choose Season From: *Aug 28*; To *Sep 27*. Click Apply. What we did is
+selecting data from 2014 to 2025 only during the 30 day window August 28 and September 27.
 
 ![alt text](./img/enso_section_step_2.png "Filter Stations") 
 Use this *xview* to access the plot immediately: [enso_section_step2.xview](./xviews/enso_section_step2.xview).
@@ -50,7 +50,7 @@ clicking *Sample Filter->Customize* (*SHIFT+S*). Select the *Range* tab, Variabl
 (adjusted) [decibar]* and Acceptible Range *0* to *500*. Click on apply. Thus we select data in the
 ocean interior between the surface and 500 dbar (ca. 500 m) depth. Further right click into the plot
 and select *Set Ranges* (*ALT+R*). On the dialog choose Minimum: 10; Maximum: 35, for Temperature,
-Longitude from 150 to 280 and Pressure from 0 to 500.  Click Apply. Change the layout by right click
+Longitude from 150 to 290 and Pressure from 0 to 500.  Click Apply. Change the layout by right click
 into the scatter window *Layout->Move / Resize Window* (*CTRL-R*). A red border appears around the
 plot and you can move and resize the plot using the mouse and drag and drop. Move and resize the map
 as you wish.
@@ -65,9 +65,9 @@ Open the *Properties* of the scatter window. On the *Display Style* tab click on
 radio button. From the dropdown menu, choose *DIVA gridding*, deselect the *Automatic scale length*
 and *Draw marks* (left) checkboxes. Enter *20* for the *X scale length* and *Y scale length*. Select
 the *Contours* tab. Enter *10* Start, *2* Increment and *35* End. Click on the << Symbol. Click on
-Apply.  Right click into the white area (canvas), select *Layout->Add Graphics Object->Annotation*
+Apply.  Right click into the data window, select *Layout->Add Graphics Object->Annotation*
 (*CTRL-A*). A crosshair appears, left click into the white area to place an annotation. On the
-dialog enter *2014 - 2025 | August 7 - September 6 | 10 °S - 10 °N*, leave the Font size at *12*. Click Apply. Move
+dialog enter *2014 - 2025 | August 28 - September 27 | 4 °S - 4 °N*, change the Font size to *10*. Click Apply. Move
 the annotation with the left mouse click.
 
 ![alt text](./img/enso_section_step_4.png "Gridding") 
@@ -83,9 +83,9 @@ Export*. Now the reference data are saved in the "clipboard" or in a file.
 
 We continue with the view and filter now the current surface conditions. Open the station filter on
 the map.  (*ALT-S*) and select as Period From: *Jan 01 2026*; To: *Dec 31 2026*. Make sure that the
-Season is still From: *Aug 07*; To *Sep 06*. Verify under properties that DIVA gridding with X and Y
+Season is still From: *Aug 28*; To *Sep 27*. Verify under properties that DIVA gridding with X and Y
 scale length 20 is active. Right click on the title annotation and select Properties. Change the
-title to *2026 | August 7 - September 6 | 10 °S - 10 °N*.
+title to *2026 | August 7 - September 6 | 4 °S - 4 °N*.
 
 ![alt text](./img/enso_section_step_5.png "Current") 
 *xview*: [enso_section_step5.xview](./xviews/enso_section_step5.xview).
