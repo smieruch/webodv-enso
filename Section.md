@@ -85,7 +85,7 @@ We continue with the view and filter now the current surface conditions. Open th
 the map.  (*ALT-S*) and select as Period From: *Jan 01 2026*; To: *Dec 31 2026*. Make sure that the
 Season is still From: *Aug 28*; To *Sep 27*. Verify under properties that DIVA gridding with X and Y
 scale length 20 is active. Right click on the title annotation and select Properties. Change the
-title to *2026 | August 7 - September 6 | 4 °S - 4 °N*.
+title to *2026 | August 28 - September 27 | 4 °S - 4 °N*.
 
 ![alt text](./img/enso_section_step_5.png "Current") 
 *xview*: [enso_section_step5.xview](./xviews/enso_section_step5.xview).
