@@ -1,4 +1,4 @@
-# webodv ENSO Tutorial
+# webodv ENSO Tutoria
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23090181.svg)](https://doi.org/10.5281/zenodo.23090181)
 
