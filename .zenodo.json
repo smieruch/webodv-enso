@@ -1,0 +1,35 @@
+{
+  "title": "webODV ENSO Tutorial",
+  "upload_type": "lesson",
+  "description": "Step-by-step tutorial for creating and reproducing ENSO visualizations with webODV using near-real-time Argo data.",
+  "creators": [
+    {
+      "name": "Mieruch, Sebastian",
+      "affiliation": "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research",
+      "orcid": "0000-0003-1150-221X"
+    }
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "ENSO",
+    "El Niño",
+    "La Niña",
+    "webODV",
+    "ODV",
+    "Argo",
+    "oceanography",
+    "ocean data",
+    "data visualization",
+    "tutorial"
+  ],
+  "version": "1.0.0",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/smieruch/webodv-enso",
+      "relation": "isSupplementTo",
+      "resource_type": "other"
+    }
+  ]
+}
