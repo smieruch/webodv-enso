@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this tutorial, please cite it as below."
+
+title: "webODV ENSO Tutorial"
+
+authors:
+  - family-names: "Mieruch"
+    given-names: "Sebastian"
+    orcid: "https://orcid.org/0000-0003-1150-221X"
+    affiliation: "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research (AWI)"
+
+repository-code: "https://github.com/smieruch/webodv-enso"
+
+license: "CC-BY-4.0"
+
+abstract: >
+  Step-by-step tutorial for creating and reproducing ENSO visualizations
+  with webODV using near-real-time Argo data.
+
+keywords:
+  - ENSO
+  - webODV
+  - Argo
+  - oceanography
+  - data visualization
+  - tutorial
